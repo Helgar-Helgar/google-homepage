@@ -1,1 +1,1 @@
-Odin Project to reverse build a static Google Homepage imitation.
+Odin Project to build a static Google Homepage imitation.
