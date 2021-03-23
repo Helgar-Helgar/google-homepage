@@ -7,10 +7,11 @@
         <title>Google Homepage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="nav">
+        <nav class="nav">
             <ul class="nav-links left">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Store</a></li>
@@ -20,24 +21,31 @@
                 <li><a href="#">Images</a></li>
                 <li><a href="#" id="button">Sign in</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <main id="main">
+        <section id="main">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
-            <input type="search" id="searchbar" name="q">
-            <a>Google Search</a>
-            <a>Feeling Lucky</a>
-        </main>
+            <div id="search-area">
+                <i class="fas fa-search searchicon"></i>
+                <input type="search" id="searchbar" name="q">
+                <img id="googlemic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/12px-Google_mic.svg.png">
+            </div>
+            <div class="nav-links">
+                <a class="box">Google Search</a>
+                <a class="box">Feeling Lucky</a>
+            </div>  
+        </section>
 
-        <footer class="nav footer">
+        <footer class="nav">
             <ul class="nav-links left">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>
             <ul class="nav-links right">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
             </ul>
         </footer>
 
